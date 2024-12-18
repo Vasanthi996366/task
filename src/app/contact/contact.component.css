@@ -1,0 +1,215 @@
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9f9f9; 
+    text-align: center;
+  }
+  
+  .contact-item {
+    flex: 1;
+    padding: 1rem;
+    max-width: 300px;
+  }
+  
+  .icon {
+    width: 50px; 
+    height: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333; 
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff; 
+    font-weight: 500;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+.contact-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #666;
+  }
+  
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .input-field,
+  .textarea-field {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .input-field:focus,
+  .textarea-field:focus {
+    border-color: #6c63ff;
+  }
+  
+  .textarea-field {
+    resize: none;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  
+  
+  .submit-button {
+    background-color: #6c63ff;
+    color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #5850ec;
+  }
+  
+.footer-container {
+    background-color: #1e1241; 
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    text-align: left;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .footer-section p,
+  .footer-section a {
+    font-size: 0.9rem;
+    color: #dcdcdc;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    color: #ffffff;
+  }
+  
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 0.5rem 0;
+  }
+  
+  .footer-section ul li a {
+    color: #dcdcdc;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+  }
+  
+  
+  .newsletter-form {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .newsletter-form input {
+    flex: 1;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .newsletter-form button {
+    background-color: #6c63ff; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #5850ec;
+  }
+  
+  
+  .copyright {
+    border-top: 1px solid #444;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+  }
+  
+  

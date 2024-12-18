@@ -1,0 +1,79 @@
+
+.container {
+    text-align: center;
+  }
+  
+  .btn-group .btn {
+    margin-right: 10px;
+    border-radius: 50px;
+  }
+  
+  .btn.active {
+    background-color: #6c63ff;
+    color: #fff;
+  }
+  
+  .row {
+    margin-top: 2rem;
+    text-align: left;
+  
+    h3 {
+      color: #333;
+    }
+  
+    p {
+      color: #666;
+      font-size: 1rem;
+    }
+  }
+  
+  img {
+    border-radius: 10px;
+    max-height: 300px;
+  }
+  .container {
+    max-width: 1200px;
+  
+    .card {
+      border-radius: 10px;
+      overflow: hidden;
+  
+      .card-img-top {
+        object-fit: cover;
+        height: 200px;
+      }
+  
+      .card-title {
+        font-weight: bold;
+        color: #333;
+      }
+  
+      .card-text {
+        color: #666;
+      }
+  
+      .card-footer {
+        text-align: right;
+  
+        .btn-link {
+          text-decoration: none;
+          font-weight: bold;
+          color: #007bff;
+        }
+      }
+    }
+  
+    /* Pagination Dots */
+    .pagination-dot {
+      font-size: 1.5rem;
+      color: #ccc;
+      margin: 0 5px;
+      cursor: pointer;
+  
+      &:hover {
+        color: #007bff;
+      }
+    }
+  }
+  
+  

@@ -1,0 +1,110 @@
+
+<div
+  class="hero-section text-white text-center d-flex align-items-center justify-content-center"
+  style="
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu60X7eCyku4L50GUZ9kUufHstdhXbXBXvlg&s');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+  "
+>
+  <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);"></div>
+  <div class="container position-relative">
+    <h1 class="display-4 fw-bold">Expertise Areas</h1>
+  </div>
+</div>
+
+<div class="container py-5">
+    
+    <h2 class="text-center fw-bold mb-3">Our Fields of Expertise</h2>
+    <p class="text-center mb-4">
+      We thrive on tailoring cutting-edge strategies to provide clients with the best solutions in the industry.
+    </p>
+  
+    
+    <ul class="nav nav-pills nav-tabs nav-tabs-centered d-flex justify-content-center text-center">
+        <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#tab4-1">
+            <div class="icon color-dark"><i class="icofont-micro-chip"></i></div><span>AI</span>
+          </a> </li>
+        <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#tab4-2">
+            <div class="icon color-dark"><i class="icofont-brainstorming"></i></div><span>IoT</span>
+          </a> </li>
+        <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#tab4-3">
+            <div class="icon color-dark"><i class="icofont-cubes"></i></div><span>Drones</span>
+          </a> </li>
+          <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#tab4-4">
+              <div class="icon color-dark"><i class="icofont-code-alt"></i></div><span>Software</span>
+            </a> </li>
+            <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#tab4-5">
+                <div class="icon color-dark"><i class="icofont-newspaper"></i></div><span>Intellectual Property</span>
+              </a> </li>
+      </ul>
+      
+      <div class="space30 d-none d-md-block"></div>
+      <div class="tab-content">
+        <div class="tab-pane show active" id="tab4-1">
+          <div class="box bg-white shadow">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="pr-15 pr-md-0 pr-sm-0 h-100">
+                  <figure><img src="#" srcset="https://itbrief.com.au/uploads/story/2023/11/27/img-d320oqYWscvU8q8HLX0brOyX.webp" alt="AI" /></figure>
+                </div>
+              </div>
+              
+              <div class="space30 d-none d-md-block d-lg-none"></div>
+              <div class="col-lg-6">
+                <div class="pl-15 pl-md-0 pl-sm-0 h-100">
+                  <h2>Artificial Intelligence</h2>
+                  <p>At Vishvena, we are at the forefront of innovation, utilizing Artificial Intelligence to transform key sectors, including Agriculture, Fleet Management, Health, and Defence. Our commitment lies in delivering cutting-edge solutions that optimize operations, improve efficiency, and drive progress in these vital domains.</p>
+                  <p>At Vishvena, we are dedicated to pushing the boundaries of AI applications, contributing to a future where technology creates sustainable solutions and secures our world. Join us as we pioneer advancements that shape the way industries operate and evolve. Vishvena - Where AI meets Excellence.</p>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        
+        </div>
+  </div>
+
+
+  <div class="container py-5">
+
+    <h4 class="text-center fw-bold mb-2">NEWS & UPDATES</h4>
+  
+    
+    <div class="row">
+      <div 
+        class="col-md-4 mb-4"
+        *ngFor="let news of newsList"
+      >
+        
+        <div class="card h-100 shadow-sm">
+          <img
+            [src]="news.imageUrl"
+            [alt]="news.title"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ news.title }}</h5>
+            <p class="card-text text-muted">
+              <small><i class="fa fa-calendar"></i> {{ news.date }}</small>
+            </p>
+            <p class="card-text">{{ news.description }}</p>
+          </div>
+          
+          <div class="card-footer bg-white border-0 text-end">
+            <a href="#" class="btn btn-link">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="text-center mt-4">
+      <span class="pagination-dot" *ngFor="let dot of dotsArray">&bull;</span>
+    </div>
+  </div>
+  
+  
