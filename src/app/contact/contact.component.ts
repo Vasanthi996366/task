@@ -31,4 +31,5 @@ export class ContactComponent {
       this.submitted = false;
     }
   }
+  email:string="inf0@vishvena.com";
 }
